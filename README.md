@@ -32,9 +32,11 @@ Downloaded hospitaliation data `Weekly_Rates_of_Laboratory-Confirmed_RSV_Hospita
 “RSV-NET: Respiratory Syncytial Virus Hospitalization Surveillance Network, Centers for Disease Control and Prevention. WEBSITE. Accessed on 2025-12-24”.
 Gzipped so a copy can be included in this repo (data are public domain, us govt.)
 
-Downloaded mortality data `Provisional_Percent_of_Deaths_for_COVID-19,_Influenza,_and_RSV_20251225.csv` from : 
+Downloaded mortality data `Provisional_Percent_of_Deaths_for_COVID-19,_Influenza,_and_RSV_by_Select_Characteristics_20251225.csv` from : 
 
 National Center for Health Statistics. Provisional Percent of Deaths for COVID-19, Influenza, and RSV by Select Characteristics. Date accessed 2025-12-25. Available from https://data.cdc.gov/Health-Statistics/Provisional-Percent-of-Deaths-for-COVID-19-Influen/53g5-jf7x
+
+Data gzipped to distribute (they are public domain). 
 
 # Havers analysis (not presently used)
 

@@ -1,8 +1,7 @@
 Simple supporting analysis of RSV disease burden for (papername, cite once finalized)
 
-Downloaded hospitaliation data from `Weekly_Rates_of_Laboratory-Confirmed_RSV_Hospitalizations_from_the_RSV-NET_Surveillance_System_20251224.csv` from https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-RSV-Hospitali/29hc-w46k/about_data
-Citation: “RSV-NET: Respiratory Syncytial Virus Hospitalization Surveillance Network, Centers for Disease Control and Prevention. WEBSITE. Accessed on 2025-12-24”.
-Gzipped so a copy can be included in this repo (data are public domain, us govt.)
+
+# Environment
 
 Conda environment rsvenv, used through this  created with commands
 
@@ -25,3 +24,17 @@ conda activate rsvenv
 conda env export --no-builds > environment.yml
 conda env export --from-history > environment_hist.yml
 ```
+
+# CDC analysis 
+
+Downloaded hospitaliation data from `Weekly_Rates_of_Laboratory-Confirmed_RSV_Hospitalizations_from_the_RSV-NET_Surveillance_System_20251224.csv` from https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-RSV-Hospitali/29hc-w46k/about_data
+Citation: “RSV-NET: Respiratory Syncytial Virus Hospitalization Surveillance Network, Centers for Disease Control and Prevention. WEBSITE. Accessed on 2025-12-24”.
+Gzipped so a copy can be included in this repo (data are public domain, us govt.)
+
+https://data.cdc.gov/National-Center-for-Health-Statistics/Provisional-Percent-of-Deaths-for-COVID-19-Influen/4bc2-bbpq/about_data
+
+# Havers analysis (not presently used)
+
+Downloaded `zoi241280supp1_prod_1734533637.42786.pdf` from `https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2826104`
+
+Havers FP, Whitaker M, Melgar M, et al. Burden of Respiratory Syncytial Virus–Associated Hospitalizations in US Adults, October 2016 to September 2023. JAMA Netw Open. 2024;7(11):e2444756. doi:10.1001/jamanetworkopen.2024.44756

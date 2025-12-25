@@ -11,4 +11,6 @@ dependencies:
   - pandas
   - python=3.11
   - seaborn
+  - camelot-py
+  - ghostscript
 prefix: /opt/anaconda3/envs/rsvenv

@@ -1,0 +1,14 @@
+name: rsvenv
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.11
+  - seaborn
+prefix: /opt/anaconda3/envs/rsvenv
